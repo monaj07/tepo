@@ -9,7 +9,9 @@ def accuracy(labels_test, percept_preds):
     F1_percept = 2 * recall.mean() * precision.mean() / (recall.mean() + precision.mean())
     return cm, F1_percept
 
+
 import pandas as pd
+
 
 df = pd.DataFrame(np.random.randn(2,2), columns=['ali', 'moj'])
 df = df.append(['sss', 'dsds'])
