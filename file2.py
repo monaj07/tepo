@@ -9,7 +9,6 @@ from utils import accuracy
 
 log.basicConfig(level=log.INFO)
 
-
 ### Generate synthetic data using Gaussians
 sizes = [100, 100]
 # class0:
